@@ -9,6 +9,8 @@
 		if(count($pathinfo) == 2){
 			$path = $pathinfo[0];
 			$filename = $pathinfo[1];
+		}else{
+			$filename = 'login';
 		}
 	}else{
 		$filename = 'login';
